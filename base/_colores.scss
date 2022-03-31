@@ -1,0 +1,13 @@
+$color-principal: white;
+$color-secundario: rgb(218, 214, 214);
+
+.btn-menu{
+    border: 1px, solid darken($color-principal, 20% );
+    &:hover{
+        background-color: lighten($color-principal, 20%);
+    }
+}
+
+.fondo-footer{
+    background-color: mix($color-principal, $color-secundario);
+}

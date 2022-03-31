@@ -31,4 +31,15 @@ li {
   text-align: center;
 }
 
+.btn-menu {
+  border: 1px, solid #cccccc;
+}
+.btn-menu:hover {
+  background-color: white;
+}
+
+.fondo-footer {
+  background-color: #edebeb;
+}
+
 /*# sourceMappingURL=style.css.map */
