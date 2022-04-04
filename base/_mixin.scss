@@ -1,0 +1,9 @@
+@mixin colores ($colors, $ancho, $borde){
+    background-color: $colors;
+    width: $ancho;
+    padding: $borde;
+}
+
+footer{
+    @include colores(, , )
+}
