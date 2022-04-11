@@ -1,5 +1,6 @@
-.subrayado{
+ul li {
     text-decoration: none;
+    list-style: none;
 }
 
 .header {
@@ -12,3 +13,4 @@
     font-size: 35px;
     color: #36A0FF;
 }
+
