@@ -7,8 +7,8 @@ class Usuarios {
     }
 
 setPass(){
-    let ramdomNumber = Math.floor(math.ramdom()*999)+1
-    this.pass = this.nombre.slice (0,3) + ramdomNumber + this.apellido.slice(1,4)
+    let randomNumber = Math.floor(Math.random()*999)+1
+    this.pass = this.nombre.slice (0,3) + randomNumber + this.apellido.slice(1,4)
 
 }
 }
